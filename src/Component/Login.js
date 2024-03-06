@@ -87,6 +87,7 @@ const Login = () => {
       //   alert("Login successfully");
       // }
     },
+    scope: "email profile openid https://www.googleapis.com/auth/gmail.readonly",
   });
 
   return (
