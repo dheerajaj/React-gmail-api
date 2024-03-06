@@ -1,0 +1,62 @@
+/* Center the button horizontally and add margin at the top */
+.text-center {
+    text-align:left;
+  }
+  
+  .mt-5 {
+    margin-top: 5rem;
+  }
+
+  .Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+  }
+  
+  /* Style the button */
+  .btn-outline-primary {
+    border: 2px solid #007bff; /* Primary color for Google */
+    border-radius: 5px;
+    height: 10vh;
+    width: 60vh;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* Style the button text
+   .btn-outline-primary button {
+    background-color: transparent;
+    border: none;
+    color: #13519de6; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+  } */
+  
+  /* Hover effect */
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff; /* Primary color for Google */
+    border-color: #007bff; /* Primary color for Google */
+  }
+
+  
+  .btn-outline-danger button{
+    background-color: transparent;
+    border: none;
+    color: #ff000d; /* Primary color for Google */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+  }
+
+  .btn-outline-danger button:hover{
+    color: #fff;;
+    border-color: #ff000d;
+    background-color: #ff000d;
+  }

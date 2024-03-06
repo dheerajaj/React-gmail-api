@@ -1,0 +1,95 @@
+/* Gmail Messages Container */
+.gmail-messages-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Gmail Messages Heading */
+.gmail-messages-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Gmail Messages List */
+.gmail-messages-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Gmail Message */
+.gmail-message {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Gmail Message From */
+.gmail-message-from {
+  font-weight: bold;
+}
+
+/* Gmail Message Subject */
+.gmail-message-subject {
+  font-weight: bold;
+}
+
+/* Gmail Message Body */
+.gmail-message-body {
+  margin-top: 10px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 800px) {
+  .gmail-messages-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .gmail-message {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+
+.user-info {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(231, 0, 58, 0.836);
+}
+
+.user-info__title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.user-info__item {
+  margin-bottom: 10px;
+}
+
+.user-info__item strong {
+  font-weight: bold;
+}
+
+.user-info__picture {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Responsive CSS */
+@media only screen and (min-width: 768px) {
+  .user-info {
+    max-width: 100%;
+  }
+}
+
+/* Interactive CSS */
+.user-info__picture:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
